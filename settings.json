@@ -1,0 +1,103 @@
+{
+    "terminal.integrated.tabs.enabled": false,
+    "workbench.colorTheme": "Community Material Theme High Contrast",
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "[html]": {
+      "editor.defaultFormatter": "j69.ejs-beautify"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "emmet.includeLanguages": {
+      "ejs": "html",
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.tabWidth": 1,
+    "prettier.singleQuote": true,
+    "javascript.preferences.quoteStyle": "single",
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 135,
+    "editor.minimap.maxColumn": 150,
+    "diffEditor.wordWrap": "on",
+    "editor.rulers": [
+      140
+    ],
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": true,
+    "todohighlight.keywords": [
+      {
+        "text": "FIX:",
+        "color": "white",
+        "border": "1px solid white",
+        "borderRadius": "2px",
+        "backgroundColor": "#FF6E00"
+      },
+      {
+        "text": "CLEAN:",
+        "color": "white",
+        "border": "1px solid white",
+        "borderRadius": "2px",
+        "backgroundColor": "#CB0F04"
+      },
+      {
+        "text": "NOTE:",
+        "color": "white",
+        "border": "1px solid white",
+        "borderRadius": "2px",
+        "backgroundColor": "#0EBDAE"
+      },
+      {
+        "text": "HACK:",
+        "color": "white",
+        "backgroundColor": "#0143B1",
+        "border": "1px solid white",
+        "borderRadius": "2px"
+      },
+      {
+        "text": "TODO:",
+        "color": "white",
+        "border": "1px solid white",
+        "borderRadius": "2px", //NOTE: using borderRadius along with `border` or you will see nothing change
+        "backgroundColor": "#F35283"
+        //other styling properties goes here ...
+        //   "isWholeLine": false,
+      }
+    ],
+    "todohighlight.include": [
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.html",
+      "**/*.php",
+      "**/*.css",
+      "**/*.scss"
+    ],
+    "workbench.editor.untitled.hint": "hidden",
+    "javascript.format.semicolons": "insert",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "js-beautify.content_unformatted": [
+      "pre",
+      "textarea"
+    ],
+    "js-beautify.end_with_newline": true,
+    "files.associations": {
+      "\"files.associations\"": "{}",
+      "*.ejs": "html"
+    },
+    "typescript.tsserver.watchOptions": {}
+  }
